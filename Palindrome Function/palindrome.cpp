@@ -6,7 +6,7 @@ bool isPalindrome(char word[], int size);
 int main()
 {
     // Declares the array of each character in a word
-    char word[] = {'r', 'a', 'd', 'a', 'b'};
+    char word[] = {'r', 'a', 'd', 'a', 'r'};
 
     // Stores the size of the array 'word'
     int size = sizeof(word);
