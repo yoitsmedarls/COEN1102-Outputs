@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// UNFINISHED!!!
 int main()
 {
     int itemNumber, itemQuantity;
@@ -15,8 +16,9 @@ int main()
          << "      2              Banana            " << bananaPrice << endl
          << "      3              Lemon             " << lemonPrice << endl
          << "      4            Watermelon          " << watermelonPrice << endl
-         << "=====================================================" << endl << endl;
-    
+         << "=====================================================" << endl
+         << endl;
+
     cout << "Please input the item number of the fruit that you want to purchase: ";
     cin >> itemNumber;
 
@@ -25,23 +27,18 @@ int main()
 
     if (itemNumber == 1)
     {
-       
     }
     else if (itemNumber == 2)
     {
-
     }
     else if (itemNumber == 3)
     {
-
     }
     else if (itemNumber == 4)
     {
-
     }
     else
     {
-
     }
 
     cout << "The total cost of " << itemQuantity << " " << itemName << "";
