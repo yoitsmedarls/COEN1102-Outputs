@@ -54,6 +54,8 @@ void displayOriginalArray(int sizeOfArray, int numbers[])
     }
 }
 
+// Runs through the 'numbers' array and counts the number of occurences for each odd number
+// Outputs the odd number with the most number of occurences
 int findOddNumberWithMostOccurences(int sizeOfArray, int numbers[])
 {
     int numberOfOccurences[sizeOfArray] = {0}, currentMostOccurences = 0, oddNumberWithMostOccurences = 0;
